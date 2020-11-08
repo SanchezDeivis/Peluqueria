@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/backgroundcolor">
+
+
+    <item android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/edit"
+        android:title="@string/edit"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+    <item android:id="@+id/delete"
+        android:title="@string/delate"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_serrar"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_persona"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_personas" />
+
+    <item
+        android:id="@+id/navigation_servicio"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_servicio" />
+
+    <item
+        android:id="@+id/navigation_Cita"
+        android:icon="@drawable/ic_email"
+        android:title="@string/title_citas" />
+    <item
+        android:id="@+id/navigation_domicilio"
+        android:icon="@drawable/ic_location"
+        android:title="@string/title_domicilio" />
+
+</menu>

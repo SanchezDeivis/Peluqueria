@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityAdmin"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimaryDark"
+        >
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabControlesSelec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabTextColor="?attr/textcolor">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabSpinner"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spinner" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="ListView" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabGridView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="?attr/tintcolor"
+                android:text="GridView" />
+        </com.google.android.material.tabs.TabLayout>
+    </LinearLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/paginas"
+        android:layout_width="match_parent"
+        android:layout_height="617dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <!--<Button
+        android:id="@+id/buttonsalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button serrarr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="159dp" />
+-->
+
+
+
+</LinearLayout>

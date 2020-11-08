@@ -1,0 +1,43 @@
+<resources>
+
+  <!--  &lt;!&ndash; Base application theme. &ndash;&gt;
+    &lt;!&ndash; Light/Day Mode theme. &ndash;&gt;
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">#03C0F3</item>
+        <item name="colorPrimaryDark">#2196F3</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#fcfcfc</item>
+        <item name="cardbackgroundcolor">#ffffff</item>
+        <item name="textcolor">#808080</item>
+        <item name="tintcolor">#ffffff</item>
+        <item name="buttoncolor">#03C0F3</item>
+        <item name="android:hint">#808080</item>
+    </style>-->
+
+    <!-- Night/ dark Mode theme. darTheme-->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#303030</item>
+        <item name="cardbackgroundcolor">#424242</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="tintcolor">#ffffff</item>
+        <item name="buttoncolor">#03C0F3</item>
+        <item name="android:hint">#ffffff</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

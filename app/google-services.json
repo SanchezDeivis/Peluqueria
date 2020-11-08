@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "917119863411",
+    "firebase_url": "https://aplicacion-android-atudio.firebaseio.com",
+    "project_id": "aplicacion-android-atudio",
+    "storage_bucket": "aplicacion-android-atudio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917119863411:android:f96396e0bd38f8d014f806",
+        "android_client_info": {
+          "package_name": "com.example.peluqueria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917119863411-pv7s7vp8l6mrb8thb22et7e19mq5gkk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACpO3k4opWHG8tJ1CT8c2IjC9gfT1xCUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917119863411-pv7s7vp8l6mrb8thb22et7e19mq5gkk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
